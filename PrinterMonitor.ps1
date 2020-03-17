@@ -240,7 +240,7 @@ while ($true)
     {
       $resultfilename = $printserver + "_Results.htm"
       $errorfilename = $printserver + "_Errors.htm"
-      $logfilename = 	$printserver + "_Logifile.log"
+      $logfilename = 	$printserver + "_Logfile.log"
       $logfile    = Join-Path $outputDir $logfilename
       $resultsHTM = Join-Path $outputDir $resultfilename
       $errorsHTM  = Join-Path $outputDir $errorfilename
